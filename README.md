@@ -1,4 +1,4 @@
-# 🚦 Traffic Accident Analysis & Hotspot Detection
+# 🚦 exploratory-data-analysis-project
 
 > A data science project that analyzes traffic accident data to identify high-risk zones and key contributing factors.
 
