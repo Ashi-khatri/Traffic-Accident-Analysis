@@ -1,82 +1,88 @@
-🚦 Traffic Accident Data Analysis
-📌 Project Overview
+# 🚦 SCT_DS_4 – Traffic Accident Analysis & Hotspot Detection
 
-This project analyzes traffic accident data to identify patterns related to:
+> A data science project that analyzes traffic accident data to identify high-risk zones and key contributing factors.
 
-Weather conditions
+---
 
-Road conditions
+## 📌 Overview
+This project is an **advanced data analysis application** focused on understanding traffic accident patterns using real-world data.  
+It identifies **accident hotspots and contributing factors** such as weather conditions, road features, and time of day.
 
-Time of day
+---
 
-Geographic accident hotspots
+## ❓ Problem Statement
+Traffic accidents are a major concern worldwide. However:
+- Data is large and complex  
+- Patterns are not easily visible  
+- High-risk areas remain unidentified  
 
-The goal is to understand contributing factors behind accidents and visualize high-risk areas using data analysis and mapping techniques.
+This makes it difficult to take **data-driven safety decisions**.
 
-🛠 Technologies Used
+---
 
-Python
+## 💡 Solution
+This project solves the problem by:
+- 🔹 Analyzing accident data across multiple factors  
+- 🔹 Identifying high-risk zones (hotspots)  
+- 🔹 Studying impact of weather, time, and road conditions  
+- 🔹 Visualizing patterns for better understanding  
 
-Pandas
+---
 
-Matplotlib
+## 🛠️ Tech Stack
+- **Language:** Python  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
+- **Tools:** Jupyter Notebook  
+- **Optional:** Folium (for map visualization)  
 
-Seaborn
+---
 
-Folium
+## ⚙️ Features
+- ✅ Data Cleaning & Preprocessing  
+- ✅ Exploratory Data Analysis (EDA)  
+- ✅ Time-based Accident Analysis  
+- ✅ Weather Impact Analysis  
+- ✅ Road Condition Analysis  
+- ✅ Accident Hotspot Detection  
+- ✅ Data Visualization  
 
-VS Code
+---
 
-📊 Project Workflow
+## 📊 Workflow
+1. Data Collection  
+2. Data Cleaning & Preprocessing  
+3. Feature Extraction (Time, Weather, Location)  
+4. Exploratory Data Analysis  
+5. Visualization  
+6. Insight Generation  
 
-Data Loading
+---
 
-Data Cleaning (handling missing values)
+## 📂 Dataset
+- Dataset: Traffic Accident Dataset  
+- Source: (Add Kaggle / CSV source)  
+- Features Used:
+  - Time of accident  
+  - Weather conditions  
+  - Road features  
+  - Location (latitude & longitude)  
 
-Feature Engineering (extracting hour from time)
+---
 
-Exploratory Data Analysis (EDA)
+## ▶️ How to Run
 
-Visualization of accident patterns
+```bash
+# Clone repository
+git clone https://github.com/Ashi-khatri/SCT_DS_4
 
-Heatmap generation for accident hotspots
+# Navigate to folder
+cd SCT_DS_4
 
-📈 Key Insights
+# Install dependencies
+pip install pandas numpy matplotlib seaborn
 
-Higher accident frequency observed during evening peak hours.
+# (Optional for maps)
+pip install folium
 
-Rainy and foggy weather conditions increase accident occurrence.
-
-Wet road conditions contribute significantly to accidents.
-
-Heatmap visualization identifies accident-prone areas.
-
-📍 Output
-
-Bar charts for:
-
-Accidents by Hour
-
-Accidents by Weather
-
-Accidents by Road Condition
-
-Interactive Heatmap:
-
-accident_hotspots.html
-
-🚀 How to Run This Project
-
-Install required libraries:
-
-pip install pandas matplotlib seaborn folium
-
-Run the script:
-
-python analysis.py
-
-Open:
-
-accident_hotspots.html
-
-to view the hotspot map.
+# Run notebook
+jupyter notebook
