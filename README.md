@@ -1,4 +1,4 @@
-# 🚦 SCT_DS_4 – Traffic Accident Analysis & Hotspot Detection
+# 🚦 Traffic Accident Analysis & Hotspot Detection
 
 > A data science project that analyzes traffic accident data to identify high-risk zones and key contributing factors.
 
